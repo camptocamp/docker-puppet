@@ -1,0 +1,4 @@
+---
+:global:
+  docker_image_name: 'puppet'
+  travis_key_id: 'cbd0800f6b0a'
