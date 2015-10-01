@@ -11,5 +11,5 @@ RUN apt-get update \
   && apt-get clean
 
 RUN apt-get update \
-  && apt-get install -y puppet=$PUPPET_VERSION \
+  && apt-get install -y puppet=$PUPPET_VERSION puppet-common=$PUPPET_VERSION \
   && apt-get clean
